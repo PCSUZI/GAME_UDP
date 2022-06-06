@@ -3,7 +3,7 @@
 개발: C++, UDP, Win32
 업무포지션: 대학생
 
-![Untitled](README_IMG/Untitled.png)
+![Untitled](readme_img/Untitled.png)
 
 
 
