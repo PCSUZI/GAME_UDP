@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Manager.h">
+      <UniqueIdentifier>{42c6b677-0e8a-4ba6-9a45-031e1a14baef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager.cpp">
+      <UniqueIdentifier>{c3745bb5-1c03-427f-bf15-424dd338e97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game.cpp">
+      <UniqueIdentifier>{3127e379-89c7-4a10-a02d-a78977a0849c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game.h">
+      <UniqueIdentifier>{79148168-f4f0-40c8-b9cc-7a09fff15eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\S_Manager.h">
+      <UniqueIdentifier>{eb706571-eed0-44e7-ae59-69c9bfcac40d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CirQueue.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaves.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsManager.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsObject.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsOpenALSoundManager.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsResource.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsSound.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsSprite.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dsSpriteManager.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImage.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>소스 파일\Manager.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game1.cpp">
+      <Filter>소스 파일\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2.cpp">
+      <Filter>소스 파일\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameIntro.cpp">
+      <Filter>소스 파일\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3.cpp">
+      <Filter>소스 파일\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game4.cpp">
+      <Filter>소스 파일\Game.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3_Item.cpp">
+      <Filter>소스 파일\Game.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CirQueue.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaves.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsManager.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsObject.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsOpenALSoundManager.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsResource.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsSound.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsSprite.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="dsSpriteManager.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game1.h">
+      <Filter>헤더 파일\Game.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2.h">
+      <Filter>헤더 파일\Game.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameIntro.h">
+      <Filter>헤더 파일\Game.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImage.h">
+      <Filter>헤더 파일\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDraw.h">
+      <Filter>헤더 파일\S_Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRect.h">
+      <Filter>헤더 파일\S_Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>헤더 파일\S_Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3.h">
+      <Filter>헤더 파일\Game.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game4.h">
+      <Filter>헤더 파일\Game.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3_Item.h">
+      <Filter>헤더 파일\Game.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GdiPlusImage.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="too1106.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="잉여폴더-하트하트.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
